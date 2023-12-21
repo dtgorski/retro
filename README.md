@@ -1,4 +1,9 @@
-## <img src="gui/files/retro_16x16.png" alt="retro"> retro - Apple II Emulator 
+## <img src="gui/files/retro_16x16.png" alt="retro" /> retro - Apple II Emulator 
+
+<img src="gui/files/aztec_1.png" width="140" alt="Aztec" />
+<img src="gui/files/aztec_2.png" width="140" alt="Aztec" />
+<img src="gui/files/lode_runner_1.png" width="140" alt="Lode Runner" />
+<img src="gui/files/lode_runner_2.png" width="140" alt="Lode Runner" />
 
 ### Compatibility
 
