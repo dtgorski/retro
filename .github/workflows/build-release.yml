@@ -1,0 +1,52 @@
+name: Create Release
+
+on:
+    push:
+        tags: [ 'v[0-9]+.[0-9]+.[0-9]+' ]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: Repo Checkout
+              uses: actions/checkout@v4
+
+            - name: Go Setup
+              uses: actions/setup-go@v4
+              with:
+                  go-version: 1.21
+
+            - name: C Dependencies
+              run: |
+                    export DEBIAN_FRONTEND=noninteractive
+                    sudo apt update
+                    sudo apt install    \
+                        libxi-dev       \
+                        libglx-dev      \
+                        libgl-dev       \
+                        libx11-dev      \
+                        libxrandr-dev   \
+                        libxcursor-dev  \
+                        libxinerama-dev \
+                        libxxf86vm-dev  \
+                        pkg-config      \
+                        make            \
+                        gcc
+
+            - name: Fetch Version Tag
+              run: echo "VERSION=$(git describe --always --tags --dirty | cut -c2-)" >> $GITHUB_ENV
+
+            - name: Create Artifact(s)
+              run: |
+                    make build
+                    mv bin/* .
+                    chmod 775 retro
+                    chmod 664 retro.config.yml
+                    tar -czf retro-${{ env.VERSION }}.linux-amd64.tar.gz retro retro.config.yml
+
+            - name: Create Release(s)
+              uses: softprops/action-gh-release@v1
+              with:
+                  files: retro-${{ env.VERSION }}.linux-amd64.tar.gz

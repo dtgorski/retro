@@ -1,0 +1,16 @@
+.*
+_*
+!.gitignore
+!.github
+*.dsk
+*.DSK
+*.out
+*.log
+*.html
+*.prof
+makefile
+/bin/
+/dev/
+
+# Temporarily.
+*_test.go

@@ -1,0 +1,10 @@
+github.com/dtgorski/m6502 v0.3.1 h1:eRbe0BqIaV/N24xJq7/ixp0CdI+nDNlXtmLPZ6dSXpo=
+github.com/dtgorski/m6502 v0.3.1/go.mod h1:fY3i6Rpxe46LylA6xIBFEhS1roXgOGPuNW/q4lUa/vg=
+github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71 h1:5BVwOaUSBTlVZowGO6VZGw2H/zl9nrd3eCZfYV+NfQA=
+github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71/go.mod h1:9YTyiznxEY1fVinfM7RvRcjRHbw2xLBJ3AAGIT0I4Nw=
+github.com/go-gl/glfw/v3.3/glfw v0.0.0-20231124074035-2de0cf0c80af h1:zclgNFqP+NXDgGX2BiDvIonxKIom8j65wQlOyFtyujc=
+github.com/go-gl/glfw/v3.3/glfw v0.0.0-20231124074035-2de0cf0c80af/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
