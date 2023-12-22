@@ -253,8 +253,8 @@ $ make
 > the possibilities that this revolutionary piece of technology offered.*
 >
 > *Now, after four decades, I embark on a nostalgic journey, choosing to revisit and relive the memories
-> the memories of my youth with an Apple II emulator, that not only resurrects the classic experience,
-> but also pays homage to the era that sparked my passion for computing.*
+> of my youth with an Apple II emulator, that not only resurrects the classic experience, but also pays
+> homage to the era that sparked my passion for computing.*
 >
 > *I hope this emulator brings back fond memories for you as it has for me."*
 >
